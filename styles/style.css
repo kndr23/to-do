@@ -1,0 +1,99 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: 400;
+  min-height: 100vh;
+  background-color: bisque;
+}
+
+.header {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 8px 0;
+  background-color: #00000090;
+}
+
+.header-text {
+  color: bisque;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 8px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-task {
+  padding: 8px;
+  background-color: #00000090;
+}
+
+.add-task h2 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: bisque;
+}
+
+.successfully {
+  color: rgb(114, 255, 114);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formInput {
+  padding: 8px;
+}
+
+.addBtn {
+  padding: 8px;
+  background-color: greenyellow;
+}
+
+.tasks {
+  margin-top: 8px;
+  padding: 8px;
+  background-color: #00000090;
+}
+
+.tasks h2 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: bisque;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-text {
+  color: bisque;
+  margin-right: 16px;
+}
+
+.btn {
+  padding: 8;
+}
+
+.edit {
+  background-color: lightskyblue;
+}
+
+.delete {
+  background-color: lightcoral;
+}
