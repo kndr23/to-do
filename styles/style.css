@@ -34,7 +34,6 @@ body {
 }
 
 .add-task {
-  padding: 8px;
   background-color: #00000090;
 }
 
@@ -45,6 +44,7 @@ body {
 }
 
 .successfully {
+  opacity: 0;
   color: rgb(114, 255, 114);
 }
 
@@ -96,4 +96,16 @@ body {
 
 .delete {
   background-color: lightcoral;
+}
+
+.done {
+  background-color: greenyellow;
+}
+
+.task-done {
+  text-decoration: line-through;
+}
+
+.task-process {
+  text-decoration: none;
 }
